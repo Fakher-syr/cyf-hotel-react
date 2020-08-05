@@ -2,6 +2,24 @@
   text-align: left;
 }
 
+tr {
+  color: #5b5757;
+}
+
+.btn {
+  background-color: #21618c;
+  border: 1px solid #21618c;
+}
+
+.btn:hover {
+  color: #21618c;
+  border: 1px solid #21618c;
+  background-color: white;
+}
+/* .App {
+  text-align: left;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
@@ -54,4 +72,4 @@ tr {
 
 .card {
   width: 18rem;
-}
+} */
