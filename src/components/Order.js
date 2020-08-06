@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import RestaurantButton from "./RestaurantButton";
 import "./Order.css";
-
+//9. Preparing to add more pizzas
+//10. Add more pizzas
 const Order = ({ orderType }) => {
   const [orders, setOrders] = useState(0);
 

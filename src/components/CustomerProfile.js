@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
-
+//20. Display a customer profile - step 1
+//21. Display a customer profile - step 2
+//22. Show a loading message
 const CustomerProfile = ({ id }) => {
   const [customerDetails, setCustomerDetails] = useState(null);
 

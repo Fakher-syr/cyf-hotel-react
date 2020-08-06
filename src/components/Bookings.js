@@ -3,7 +3,9 @@ import "./Bookings.css";
 import Search from "./Search.js";
 import SearchResults from "./SearchResults.js";
 import BookingForm from "./BookingForm.js";
-
+//14. Passing bookings from a state variable
+//15. Load bookings remotely
+//23. Show an error message
 const Bookings = () => {
   const [bookings, setBookings] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -23,7 +25,8 @@ const Bookings = () => {
         setIsLoading(false);
       });
   }, []);
-
+  //19. Implementing the search functionality
+  //24. Create a new booking
   const search = searchVal => {
     const filteredBookings = bookings.filter(
       booking =>
@@ -54,3 +57,27 @@ const Bookings = () => {
 };
 
 export default Bookings;
+
+//5. Create a table to show hotel bookings
+// import React from "react";
+// import "./Bookings.css";
+// import Search from "./Search.js";
+// import SearchResults from "./SearchResults.js";
+// import FakeBookings from "../data/fakeBookings.json";
+
+// const Bookings = () => {
+//   const search = (searchVal) => {
+//     console.info("TO DO!", searchVal);
+//   };
+
+//   return (
+//     <div className="bookings-content">
+//       <div className="container">
+//         <Search search={search} />
+//         <SearchResults results={FakeBookings} /> //6. Show more bookings in the table
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Bookings;

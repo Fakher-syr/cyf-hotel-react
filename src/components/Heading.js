@@ -1,3 +1,4 @@
+//2. Extract the header in its own component
 import React from "react";
 import "./Heading.css";
 

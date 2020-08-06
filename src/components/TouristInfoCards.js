@@ -1,3 +1,4 @@
+//3. Create and use a new component to show info cards
 import React from "react";
 import "./TouristInfoCards.css";
 import Card from "./Card";

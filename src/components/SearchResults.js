@@ -3,7 +3,8 @@ import moment from "moment";
 import HeadingRow from "./HeadingRow";
 import BodyRow from "./BodyRow";
 import CustomerProfile from "./CustomerProfile";
-
+//7. Calculate and show the number of nights for each booking
+//25. Sort table columns
 const SearchResults = ({ results, setBookings }) => {
   const [customerId, setCustomerId] = useState(null);
   const [isSorted, setIsSorted] = useState({});
@@ -60,3 +61,24 @@ const SearchResults = ({ results, setBookings }) => {
 };
 
 export default SearchResults;
+
+//5. Create a table to show hotel bookings
+
+// import React from "react";
+// import HeadingRow from "./HeadingRow";
+// import BodyRow from "./BodyRow";
+
+// const SearchResults = ({ results }) => (
+//   <table className="table">
+//     <thead>
+//       <HeadingRow />
+//     </thead>
+//     <tbody>
+//       {results.map((result) => (
+//         <BodyRow key={result.roomId} content={result} />
+//       ))}
+//     </tbody>
+//   </table>
+// );
+
+// export default SearchResults;

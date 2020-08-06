@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./Search.css";
 import SearchButton from "./SearchButton";
-
+//17. Storing the search input in a state
+//18. Triggering search when submitting the form
 const Search = ({ search }) => {
   const [searchInput, setSearchInput] = useState("");
 

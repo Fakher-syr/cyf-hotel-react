@@ -5,7 +5,7 @@ import Heading from "./components/Heading";
 import TouristInfoCards from "./components/TouristInfoCards";
 import Restaurant from "./components/Restaurant";
 import Footer from "./components/Footer";
-
+//8. Render the Restaurant component
 const App = () => {
   return (
     <div className="App">

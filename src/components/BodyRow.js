@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./BodyRow.css";
-
+//16. Highlight booking row when clicked
 const BodyRow = ({
   content: {
     id,

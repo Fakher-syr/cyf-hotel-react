@@ -1,3 +1,4 @@
+//4. Create a Footer component
 import React from "react";
 import "./Footer.css";
 
